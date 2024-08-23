@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito Sans", sans-serif; 
+    margin: auto;
+
+}
+/* .container{
+  
+} */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+   gap: 290px;
+    margin: 0 auto;
+    margin-top: 36px;
+    .writ{
+        display: flex;
+        gap: 40px;
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 111%;
+color: #4e616d;
+h2{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 111%;
+color: #4e616d;
+}
+    }
+    button{
+        border-radius: 5px;
+padding: 20px 40px;
+width: 247px;
+height: 60px;
+border: none;
+background-color: #3da9fc;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+color: #ecf7ff;
+    }
+}
+.promo{
+    display: flex;
+    gap: 71px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+margin-top: 61px;
+  
+    .promo1{ 
+        width: 600px;  
+        display: flex; 
+        flex-direction: column;
+        gap: 32px;
+        h1{
+            
+            font-family: var(--font-family);
+font-weight: 700;
+font-size: 68px;
+line-height: 121%;
+color: #094067;
+        }
+        button{
+            width: 170px;
+height: 58px;
+border: none;
+background-color: #3da9fc;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 156%;
+color: #fff;
+        }
+    }
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+    margin-top: 150px; 
+    .info1{
+        width: 830px;
+        h2{
+            font-family: var(--font-family);
+font-weight: 600;
+font-size: 58px;
+line-height: 117%;
+text-align: center;
+color: var(--title);
+        }
+        p{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+text-align: center;
+color: #4e616d;
+        }
+    }
+    .info2{
+        display: flex;
+        gap: 80px;
+        margin-top: 50px;
+        .min{
+            width: 295px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            h3{
+                font-family: var(--font-family);
+font-weight: 400;
+font-size: 32px;
+line-height: 62%;
+text-align: center;
+color: #094067;
+            }
+            p{
+                font-family: var(--font-family);
+font-weight: 300;
+font-size: 18px;
+line-height: 156%;
+text-align: center;
+color: #4e616d;
+            }
+        }
+    }
+}
+.logo{
+    display: flex;
+    gap: 134px;
+    width: 100%;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+    margin-top: 150px; 
+    .logo1{
+        width: 583px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            font-family: var(--font-family);
+font-weight: 600;
+font-size: 58px;
+line-height: 128%;
+color: #094067;
+        }
+        p{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+color: #4e616d;
+        }
+        button{
+            border: 3px solid #3da9fc;
+            border-radius: 5px ;
+            padding: 20px 40px;
+            width: 177px;
+            height: 60px;
+            
+        }
+    }
+}
+.mini{
+    display: flex;
+    gap: 200px;
+    width: 100%;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+    margin-top: 150px; 
+    .mini2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 602px;
+        h2{
+            font-family: var(--font-family);
+font-weight: 600;
+font-size: 58px;
+line-height: 128%;
+color: #094067;
+        }
+        p{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 178%;
+color: #4e616d;
+        }
+        button{
+            border-radius: 5px;
+padding: 20px 50px;
+width: 191px;
+height: 68px;
+border: none;
+background-color: #3da9fc;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 156%;
+color: #fff;
+        }
+    }
+}
+.index{
+    display: flex;
+    gap: 134px;
+    width: 100%;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+    margin-top: 150px; 
+    .index1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 700px;
+        h2{
+            font-family: var(--font-family);
+font-weight: 600;
+font-size: 48px;
+color: #094067;
+        }
+        p{
+            font-family: var(--font-family);
+font-weight: 400;
+font-size: 30px;
+line-height: 160%;
+color: #094067;
+        }
+    }
+}
+.smal{
+    display: flex;
+    gap: 54px;
+    width: 100%;
+    height: 475px;
+    max-width: 1410px;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: content-box;
+    align-items: center;
+   
+    margin: 0 auto;
+    background-color: #094067;
+    margin-top: 150px; 
+    h2{
+        font-family: var(--font-family);
+font-weight: 600;
+font-size: 58px;
+line-height: 83%;
+color: #fff;
+    }
+    .minn{
+display: flex;
+justify-content: space-around;
+width: 668px;
+height: 82px;
+background-color: #fff;
+h3{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 103%;
+color: #cdcdcd;
+}
+button{
+    border-radius: 0 5px 5px 0;
+width: 232px;
+height: 82px;
+background-color: #3da9fc;
+color: #fff;
+border: none;
+}
+    }
+}
+.footer{
+    display: flex;
+    gap: 150px;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 100%;
+    justify-content: center;
+    box-sizing: content-box;
+    align-items: center;
+    .end{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    h3{
+        font-family: var(--font-family);
+font-weight: 600;
+font-size: 26px;
+line-height: 46%;
+color: #0c1070;
+    }
+    h4{
+        font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 194%;
+color: #656790;
+    }
+}
